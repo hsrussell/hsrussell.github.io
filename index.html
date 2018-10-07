@@ -1,1 +1,50 @@
-Hello World
+<!DOCTYPE HTML>
+
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="src/css/app.css" />
+
+    <!-- Set Title -->
+    <title>Hayley Russell</title>
+    
+    <!-- Meta Content -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+
+  <body>
+  
+    <!-- Header -->
+    <div id="header">
+      <div class="container">
+        <h1>Hayley Russell</h1>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="src/content/about.html">About</a></div>
+            <div><a href="src/content/teaching.html">Teaching</a></div>
+            <div><a href="src/content/research.html">Research</a></div>
+            <div><a href="src/content/art.html">Misc</a></div>
+            <div><a href="src/content/cv.html">CV</a></div>
+        </nav>
+          
+        <img src="src/img/mypic.jpg" width="500">
+
+        <!-- testing -->
+        <!-- end testing -->
+          
+        <!-- App body -->
+        <div id="main">
+          <div class="container">
+            <ui-view autoscroll="true"></ui-view>
+                
+            <!-- upolished words -->
+            <p> Hello! I am a senior studying mathematics and computer science at NC State University. I am interested in teaching, research, and art. My research interests include graph theory, algorithms, modeling, simulation, and computational biology.</p>
+            <p>Note: Excuse the poor formatting and layout. My website is still in the process of being constructed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </bod>
+    
+</html>

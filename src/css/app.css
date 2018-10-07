@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(245, 245, 240);
+    font-family:Avenir;
+}
+h1 {
+    text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+.googleDoodle {
+  display: flex;
+  justify-content: center;
+}
+
+.googleDoodle > div {
+  margin: 10px;
+  padding: 20px;
+}
+
+
